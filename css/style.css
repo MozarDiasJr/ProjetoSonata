@@ -1,6 +1,6 @@
 html {
     font-family: Helvetica;
-    background-color: #ddd;
+    background-color: #1e8bca;
 }
 
 .container {
@@ -9,6 +9,7 @@ html {
     position: relative;
     margin: 50px auto;
     padding: 20px 50px;
+    border-radius: 20px;
 }
 
 .bold {
@@ -20,11 +21,14 @@ html {
 }
 
 .maintitle {
-    font-size: 40px;
+    font-size: 60px;
+    font-family: fantasy;
+    
 }
 
 .mainparagraph {
     font-style: italic;
+    font-family: fantasy;
 }
 
 .featured-image {
@@ -44,6 +48,7 @@ html {
 .quotes-container {
     background-color: #ddd;
     padding: 30px;
+    border-radius: 15px;
 }
 
 .quotes-container p {
